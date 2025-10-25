@@ -4,5 +4,9 @@
   "files": [
     "dist"
   ],
-  "author": "Daniel Roe <daniel@roe.dev>"
+  "author": "Daniel Roe <daniel@roe.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielroe/oidc-test.git"
+  }
 }
