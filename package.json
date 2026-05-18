@@ -4,7 +4,7 @@
   "files": [
     "dist"
   ],
-  "packageManager": "pnpm@11.0.8",
+  "packageManager": "pnpm@11.1.2",
   "author": "Daniel Roe <daniel@roe.dev>",
   "repository": {
     "type": "git",
