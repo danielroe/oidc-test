@@ -42,7 +42,7 @@ jobs:
       - name: Update npm
         run: npm install -g npm@latest
 
-      - name: 📦 Pack with pnpm (resolves catalog: specifiers)
+      - name: 📦 Pack with pnpm (resolves catalog specifiers)
         run: pnpm pack --pack-destination .
 
       - name: 📤 Stage publish
