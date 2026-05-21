@@ -4,6 +4,25 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    pathe:
+      specifier: ^2.0.3
+      version: 2.0.3
+
 importers:
 
-  .: {}
+  .:
+    dependencies:
+      pathe:
+        specifier: 'catalog:'
+        version: 2.0.3
+
+packages:
+
+  pathe@2.0.3:
+    resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
+
+snapshots:
+
+  pathe@2.0.3: {}

@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danielroe/oidc-test.git"
+  },
+  "dependencies": {
+    "pathe": "catalog:"
   }
 }
